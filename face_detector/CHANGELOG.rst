@@ -2,6 +2,11 @@
 Changelog for package face_detector
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.9 (2015-09-01)
+------------------
+* Install missing param directory: face_detector.rgbd.launch fails due to the `param` folder.
+* Contributors: Isaac I.Y. Saito
+
 1.0.8 (2014-12-10)
 ------------------
 * cleanup formatting with astyle (supersedes `#18 <https://github.com/wg-perception/people/issues/18>`_)
