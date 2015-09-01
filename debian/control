@@ -1,0 +1,12 @@
+Source: ros-indigo-people
+Section: misc
+Priority: extra
+Maintainer: Dan Lazewatsky <dan@lazewatsky.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/people
+Standards-Version: 3.9.2
+
+Package: ros-indigo-people
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-face-detector, ros-indigo-leg-detector, ros-indigo-people-msgs, ros-indigo-people-tracking-filter, ros-indigo-people-velocity-tracker
+Description: The people stack holds algorithms for perceiving people from a number of sensors.
