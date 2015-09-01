@@ -1,0 +1,12 @@
+Source: ros-indigo-leg-detector
+Section: misc
+Priority: extra
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-bfl, ros-indigo-catkin, ros-indigo-dynamic-reconfigure, ros-indigo-geometry-msgs, ros-indigo-image-geometry, ros-indigo-laser-geometry, ros-indigo-people-msgs, ros-indigo-people-tracking-filter, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-std-msgs, ros-indigo-std-srvs, ros-indigo-tf, ros-indigo-visualization-msgs
+Homepage: http://ros.org/wiki/leg_detector
+Standards-Version: 3.9.2
+
+Package: ros-indigo-leg-detector
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-bfl, ros-indigo-dynamic-reconfigure, ros-indigo-geometry-msgs, ros-indigo-image-geometry, ros-indigo-laser-filters, ros-indigo-laser-geometry, ros-indigo-map-laser, ros-indigo-people-msgs, ros-indigo-people-tracking-filter, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-std-msgs, ros-indigo-std-srvs, ros-indigo-tf, ros-indigo-visualization-msgs
+Description: Leg Detector using a machine learning approach to find leg-like patterns of laser scanner readings.
