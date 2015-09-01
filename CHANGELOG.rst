@@ -2,6 +2,9 @@
 Changelog for package people
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.9 (2015-09-01)
+------------------
+
 1.0.8 (2014-12-10)
 ------------------
 * moved social_navigation_layers from metapackage
