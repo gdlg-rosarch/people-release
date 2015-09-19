@@ -1,0 +1,12 @@
+Source: ros-indigo-people-velocity-tracker
+Section: misc
+Priority: extra
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-easy-markers, ros-indigo-geometry-msgs, ros-indigo-kalman-filter, ros-indigo-people-msgs, ros-indigo-roslib, ros-indigo-rospy
+Homepage: http://ros.org/wiki/people_velocity_tracker
+Standards-Version: 3.9.2
+
+Package: ros-indigo-people-velocity-tracker
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-easy-markers, ros-indigo-geometry-msgs, ros-indigo-kalman-filter, ros-indigo-leg-detector, ros-indigo-people-msgs, ros-indigo-roslib, ros-indigo-rospy
+Description: Track the output of the leg_detector to indicate the velocity of person.
