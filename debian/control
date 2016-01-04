@@ -1,0 +1,12 @@
+Source: ros-jade-leg-detector
+Section: misc
+Priority: extra
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-bfl, ros-jade-catkin, ros-jade-dynamic-reconfigure, ros-jade-geometry-msgs, ros-jade-image-geometry, ros-jade-laser-geometry, ros-jade-people-msgs, ros-jade-people-tracking-filter, ros-jade-roscpp, ros-jade-sensor-msgs, ros-jade-std-msgs, ros-jade-std-srvs, ros-jade-tf, ros-jade-visualization-msgs
+Homepage: http://ros.org/wiki/leg_detector
+Standards-Version: 3.9.2
+
+Package: ros-jade-leg-detector
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-bfl, ros-jade-dynamic-reconfigure, ros-jade-geometry-msgs, ros-jade-image-geometry, ros-jade-laser-filters, ros-jade-laser-geometry, ros-jade-map-laser, ros-jade-people-msgs, ros-jade-people-tracking-filter, ros-jade-roscpp, ros-jade-sensor-msgs, ros-jade-std-msgs, ros-jade-std-srvs, ros-jade-tf, ros-jade-visualization-msgs
+Description: Leg Detector using a machine learning approach to find leg-like patterns of laser scanner readings.
