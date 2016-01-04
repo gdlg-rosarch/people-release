@@ -1,0 +1,12 @@
+Source: ros-jade-people
+Section: misc
+Priority: extra
+Maintainer: Dan Lazewatsky <dan@lazewatsky.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin
+Homepage: http://ros.org/wiki/people
+Standards-Version: 3.9.2
+
+Package: ros-jade-people
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-face-detector, ros-jade-leg-detector, ros-jade-people-msgs, ros-jade-people-tracking-filter, ros-jade-people-velocity-tracker
+Description: The people stack holds algorithms for perceiving people from a number of sensors.
