@@ -1,0 +1,12 @@
+Source: ros-jade-face-detector
+Section: misc
+Priority: extra
+Maintainer: Dan Lazewatsky <dan@lazewatsky.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-actionlib, ros-jade-actionlib-msgs, ros-jade-catkin, ros-jade-cv-bridge, ros-jade-geometry-msgs, ros-jade-image-geometry, ros-jade-image-transport, ros-jade-message-generation, ros-jade-people-msgs, ros-jade-rosbag, ros-jade-roscpp, ros-jade-roslib, ros-jade-rospy, ros-jade-sensor-msgs, ros-jade-std-msgs, ros-jade-std-srvs, ros-jade-stereo-msgs, ros-jade-tf
+Homepage: http://ros.org/wiki/face_detector
+Standards-Version: 3.9.2
+
+Package: ros-jade-face-detector
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-actionlib, ros-jade-actionlib-msgs, ros-jade-cv-bridge, ros-jade-dynamic-reconfigure, ros-jade-geometry-msgs, ros-jade-image-geometry, ros-jade-image-transport, ros-jade-message-runtime, ros-jade-openni-launch, ros-jade-people-msgs, ros-jade-rosbag, ros-jade-roscpp, ros-jade-roslib, ros-jade-rospy, ros-jade-sensor-msgs, ros-jade-std-msgs, ros-jade-std-srvs, ros-jade-stereo-msgs, ros-jade-tf
+Description: Face detection in images.
