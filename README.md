@@ -1,3 +1,32 @@
+## people (kinetic) - 1.0.10-0
+
+The packages in the `people` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release people --track kinetic --rosdistro kinetic --new-track` on `Mon, 25 Jul 2016 18:00:11 -0000`
+
+These packages were released:
+- `face_detector`
+- `leg_detector`
+- `people`
+- `people_msgs`
+- `people_tracking_filter`
+- `people_velocity_tracker`
+
+Version of package(s) in repository `people`:
+
+- upstream repository: https://github.com/wg-perception/people.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.10-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## people (jade) - 1.0.10-0
 
 The packages in the `people` repository were released into the `jade` distro by running `/usr/bin/bloom-release people --track jade --rosdistro jade --new-track` on `Mon, 04 Jan 2016 16:11:47 -0000`
